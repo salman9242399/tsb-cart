@@ -1,0 +1,270 @@
+
+body {
+  font-family: 'Helvetica';
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #f394eb solid;
+  background-color: #f0c040;
+  width: 90%;
+  cursor: pointer;
+}
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #f04040;
+  border: none;
+  color: #ffffff;
+  width: 1.5rem;
+}
+.atcbtn {
+  width: auto;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  img.small {
+    display: flex;
+    flex-direction: column;
+    
+    max-height:300px;
+    max-width: 400px;
+    padding: 2px;
+    margin: 2px;
+  }
+ .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+     background-color:rgb(221, 233, 156);
+      border: 2px solid #4CAF50;
+      margin-left: 25px;
+  } 
+ 
+  .block{
+    
+  position: initial;
+  position: absolute;
+  top:100px;
+  width: 30%;
+ 
+  margin-left:360px;
+  background-color: rgb(221, 233, 156);
+  border: 2px solid #4CAF50;
+}
+.top-c{
+  position: initial;
+  position: absolute;
+  top:20px;
+  width: 30%;
+  margin-left:350px;
+  background-color: rgb(221, 233, 156);
+  border: 2px solid #4CAF50;
+} 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  img.small {
+    display: flex;
+    flex-direction: column;
+    
+    max-height:300px;
+    max-width: 400px;
+    padding: 2px;
+    margin: 2px;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+     background-color:lightpink;
+     border: 2px solid #4CAF50;
+     margin-left: 25px;
+  } 
+  .block{
+    
+  position: initial;
+  position: absolute;
+  top:99px;
+  width: 40%;
+ 
+  margin-left:360px;
+  background-color: lightpink;
+  border: 2px solid #4CAF50;
+}
+.top-c{
+  position: initial;
+  position: absolute;
+  top:20px;
+  width: 40%;
+  margin-left:350px;
+  background-color: lightpink;
+  border: 2px solid #4CAF50;
+} 
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  img.small {
+    
+    display: flex;
+  
+    max-height:300px;
+    max-width: 400px;
+    padding: 2px;
+    margin: 2px;
+  }
+  
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+     background-color:lightgray;
+  } 
+ 
+  .block{
+    
+  position: initial;
+  position: absolute;
+  top:100px;
+  width: 40%;
+ 
+  margin-left:450px;
+  background-color: lightgrey;
+  border: 2px solid #4CAF50;
+}
+.top-c{
+  position: initial;
+  position: absolute;
+  top:20px;
+  width: 40%;
+  margin-left:437px;
+  background-color: lightgrey;
+  border: 2px solid #4CAF50;
+} 
+  
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  img.small {
+    display: flex;
+    max-height:300px;
+    max-width: 400px;
+    padding: 2px;
+    margin: 2px;
+  }  
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+     background-color:rgb(107, 247, 247);
+     border: 2px solid #4CAF50;
+  } 
+  .block{
+    
+  position: initial;
+  position: absolute;
+  top:99px;
+  width: 30%;
+  margin-left:650px;
+  background-color: rgb(107, 247, 247);
+  border: 2px solid #4CAF50;
+}
+.top-c{
+  position: initial;
+  position: absolute;
+  top:20px;
+  width: 30%;
+  margin-left:635px;
+  background-color: rgb(107, 247, 247);
+  border: 2px solid #4CAF50;
+} 
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+     background-color:lightcyan;
+     border: 2px solid #4CAF50;
+  } 
+  .block{
+    
+  position: initial;
+  position: absolute;
+  top:99px;
+  width: 30%;
+  margin-left:650px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+ 
+.top-c{
+  position: initial;
+  position: absolute;
+  top:20px;
+  width: 30%;
+  margin-left:635px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+} 
+}
